@@ -103,7 +103,7 @@
 			<div class="social">
 				
 					
-						<a class="qq" href="tencent://message/?uin=757453794&Site=&Menu=yes" 
+						<a class="qq" href="tencent://message/?uin=1412961481&Site=&Menu=yes" 
 												title="QQ" target="_blank"><i class="icon-qq"></i></a>
 					
 				
@@ -172,7 +172,7 @@
 					
 						
 						<a class="qq" target="_blank" 
-							href="tencent://message/?uin=757453794&Site=&Menu=yes" title="QQ"><i class="icon-qq"></i></a>
+							href="tencent://message/?uin=1412961481&Site=&Menu=yes" title="QQ"><i class="icon-qq"></i></a>
 						
 					
 						
@@ -431,30 +431,31 @@
 
 
 
-
+  <div id="giteement-ctn"></div>
   
-  <div id="gitment-ctn"></div>
-  
-    <!-- 中文 -->
-    <link rel="stylesheet" href="/lib/gitment.css">
-    <script src="/lib/gitment.js"></script>
+    <link rel="stylesheet" href="/lib/default.css">
+    <script src="/lib/giteement.browser.js"></script>
   
   <script>
-    <!-- id: "Hello World" -->
-    var gitment = new Gitment({
-      id: "20241116153214",
-      owner: 'zhouwanga',
-      repo: 'zhouwanga.github.io',
-      oauth: {
-        client_id: 'Ov23liID3qYBvqwcuNsZ',
-        client_secret: 'a82be42a8376173ae34bf39f9029720925111586',
-      },
-    })
-    gitment.render('gitment-ctn')
+  <!-- id: "Hello World" -->
+  var giteement = new Giteement({
+    id: '20241116153214',
+    owner: 'zw_luke',
+    repo: 'lukedog-review',
+    backcall_uri: 'https://lukedog.cn',
+    oauth_uri: 'https://cors-anywhere.herokuapp.com/https://gitee.com/oauth/token',
+    oauth: {
+      client_id: 'eb9afb49e684e7fef5b3fd475f43a49d92fbbe8a35ee94b329f0f6277dc67e2d',
+      client_secret: 'a777041392c67bce2fb2b69ed7ba89e751b1c2fc1a5c51905ef5507b9bb5400e'
+    },
+  })
+  giteement.render('giteement-ctn')
   </script>
 
 
-  
+
+
+
 
 
 
